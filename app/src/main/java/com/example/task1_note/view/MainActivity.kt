@@ -9,6 +9,13 @@ import com.example.task1_note.R
 import com.example.task1_note.model.MainModel
 import android.widget.Toast
 
+/*
+    Сделать приложение "Заметка".
+    Приложение должно содержать экран редактирования и, при нажатии на кнопку сохранения данных,
+    вывести на экран сообщение об успешном сохранении текста.
+    - Реализовать паттерн MVP.
+*/
+
 class MainActivity : AppCompatActivity(), IMainView {
     private lateinit var presenter: MainPresenter
     override fun onCreate(savedInstanceState: Bundle?) {
