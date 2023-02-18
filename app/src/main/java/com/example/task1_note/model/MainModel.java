@@ -8,5 +8,6 @@ public class MainModel {
      */
     public boolean addNoteToDb(String note){
         return true;
+
     }
 }
